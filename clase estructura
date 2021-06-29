@@ -1,0 +1,36 @@
+class sintaxis:
+    instancia=0
+   
+
+    def __init__(self,dato="llamando al constructor1" ):
+        self.frase=dato   #-------> #atributos de instancia
+        sintaxis.instancia=sintaxis.instancia+1
+
+
+    def usovariables(self):
+        edad,peso=19,54.43
+        nombres:"maria chevez"
+        tipo_de_sexo: "f"
+        civil:True
+           #print("civil={}y su tipo es:{}",format(civil,type(civil)))
+        usuario=()
+        usuario=('mchevezv','1234','mchevezv2001@gmail.com'True)
+        #             0      1      2             3 
+        x=usuario[0]
+        materia=["programacion web","php","poo"]
+        materia.append("go")
+
+        estudiante={}
+        estudiante={"nombre":"maria","edad":19,"fac":"faci",}
+        estudiante["edad"]=19
+          #print(materia,materia[2:],materia[:2],mateia[:-1],materia[-2:])
+        print("x,y")
+        print(estudiante,estudiante["nombre"])
+    def mostrar(self):
+        print("mostrar")
+        print(self.frase)
+
+
+
+ejer1=sintaxis()
+ejer1.usovariables()
