@@ -1,0 +1,3 @@
+frase = input("Ingrese una frase por favor : ")
+for indice in range(len(frase)):
+    print(indice,'=',frase[indice])
