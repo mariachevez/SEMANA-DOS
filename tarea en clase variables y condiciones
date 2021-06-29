@@ -1,0 +1,15 @@
+[car for car in['a','e','i','o','u'] if car not in('a','i','o')]
+edad,_peso = 19, 54.43
+nombres = 'maria chevez'
+dirDomiciliaria= "balerio estacio 2 mz 3175"
+Tipo_sexo = 'f'
+civil = True
+usuario = ('mchevezv','1234','mchevezv2001@gmail.com')
+materias = ['programacion','PHP','POO']
+estudiante = {'nombre':'maria','edad':19}
+print(""" nombre  {}, tiene{}  años """.format(nombres,edad))
+print(usuario,materias,estudiante)
+import math
+num1, num2, num, men = 12.572,  15.4,  4,  '1234'
+print(math.ceil(num1), '\t',math.floor(num1))
+print(round(num1,1),'\t',type(num),'\t',type(men))
