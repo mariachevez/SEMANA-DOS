@@ -1,0 +1,15 @@
+usuario = ('mchevezv','1234','mchevezv2001@gmail.com')
+materias = ['Python','PHP','POO','Go']
+estudiante = {'nombre':'maria','edad':19,'fac':'faci'}
+print(usuario[0],materias[1],estudiante['nombre'])
+print(usuario[0:2],estudiante.keys(),estudiante.values())
+materias.append('Programacion Movil')
+estudiante ['sexo'], estudiante ['edad']='f', 19
+print(materias,estudiante)
+tupla,lista,diccionario=(),[],{}
+# Recorridos tuplas y listas con in
+for valor in usuario: print(valor)
+# Recorridos listas con enumerate
+for i, c in enumerate(materias): print(i,':',c)
+# Recorridos diccionario con items
+for c, v in estudiante.items(): print(c,':',v)
